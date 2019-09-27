@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Una guida veloce per la visualizzazione dei dati degli alberi di Trento| ispirato a Cloudred</title>
+        <meta name="description" content="Una guida veloce per la visualizzazione dei dati degli alberi di Trento| ispirato a Cloudred">
+        <meta name="viewport" content="width=device-width">
+        <meta name="ROBOTS" CONTENT="INDEX, FOLLOW">
+        <meta property="og:title" content="Una guida veloce per la visualizzazione dei dati degli alberi di Trento | ispirato a Cloudred"/>
+        <meta property="og:image" content="trees/grid-trees.jpg"/>
+        <meta property="og:site_name" content="Una guida veloce per la visualizzazione dei dati degli alberi di Trento | ispirato a Cloudred"/>
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Roboto:400,900" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		
+        
+    </head>
+    <body>
+
+        <div id="wrapper">
+            <ul id="header_links">
+                <li><a href="#" id="reset_ui">Reset</a></li>
+                <li><a href="#about">Informazioni</a></li>
+            </ul>
+       
+            <div class="container">
+              <header>
+                    <h1>Una guida veloce per la visualizzazione dei dati degli alberi di Trento</h1>
+                    
+                    <p>I dati provengono dal Comune di Trento (<a href="?year=2018">2019</a>) questa visualizzazione mostra la varietà e quantità di alberi gestiti nelle circoscrizioni di Treto da parte del Comune.</p>
+
+                </header>
+            </div>
+
+            <div id="viz_wrapper"> 
+                <div id="bars">
+
+
+                </div>
+                <div id="trees_grid" class="Common">
+                    <div id="options">
+                        <label>Specie di albero</label>
+                        <div class="switch">
+                            <span class="on" data-sort="Common">COMUNE</span>
+                            <span class="" data-sort="Latin">LATINO</span>
+                        </div>
+                    </div>
+                    <ul class="cf">
+                        
+                    </ul>
+                </div>
+
+
+                <canvas id="tree_canvas"></canvas>
+                <canvas id="hover_canvas"></canvas>
+            </div>
+            
+            <div class="container">
+                <div id="about">
+                <p name="about"><h3>Informazioni</h3></p>
+                
+                <p>
+                    Questa visualizzazione, creata da Cloudred per gli alberi di New York, è stata riadattata sui dati di Trento e permette di curiosare facilmente per conoscere quali alberi comuni e non sono presenti nelle varie circoscrizioni della città. Si tratta di una via efficace per visualizzare facilmente e valutare la distribuzione degli alberi.
+                </p>
+
+                <blockquote>Intefacce visive coinvolgenti hanno il potere di rendere più accessibili i dati</blockquote>
+
+                 <p>
+                    Questa visualizzazione è un esperimento per aiutare a capire meglio la distribuzione degli alberi della città
+                </p>
+                <h3>Intuizioni</h3>
+                  <p>Il dataset purtroppo è incompleto, mostra comunque quanta attenzione ci sia nell'avere alberi nelle zone più antropiche della città (centro storico e i quartieri intorno). È molto interessante scoprire anche che ci sono casi unici (quasi sempre nei quartieri più giovani della città). C'è anche un buon numero di alberi sconociuti, segno che si tratta di un grosso lavoro di manutenzione la cui digitalizzazione è iniziata da poco.
+                </p>
+
+
+                <p>
+                    Gli alberi sono stati raggruppati per specie.
+                </p>
+                <p>
+                    Concept &amp; Design: <a href="http://cloudred.com/" target="_blank">Cloudred</a> | Programming: Cristian Zapata. Made with jcanvas &amp; jquery | Adattamento per Trento: Maurizio Napolitano</p>
+
+                </div>
+            </div>
+
+
+				
+            <div class="container">
+                <footer>
+
+                  <p>&copy; CC-BY</p>
+                </footer>
+            </div>
+        </div>
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src='js/vendor/jcanvas.min.js'></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
+

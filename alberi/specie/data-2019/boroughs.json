@@ -1,0 +1,50 @@
+[
+	{
+		"name":"S.Giuseppe-S.Chiara",
+		"total":3170
+	},
+	{
+		"name":"Centro storico-Piedicastello",
+		"total":3079
+	},
+	{
+		"name":"Oltrefersina",
+		"total":2861
+	},
+	{
+		"name":"Gardolo", 
+		"total": 2676
+	},
+	{
+		"name":"Argentario",
+		"total":1417
+	},
+	{
+		"name":"Bondone",
+		"total":653
+	},
+	{
+		"name":"Villazzano",
+		"total":577
+	},
+	{
+		"name":"Povo",
+		"total":447
+	},
+	{
+		"name":"Ravina-Romagnano",
+		"total":382
+	},
+	{
+		"name":"Mattarello",
+		"total":332
+	},
+	{
+		"name":"Meano",
+		"total":309
+	},
+	{
+		"name":"Sardagna",
+		"total":129
+	}
+]
